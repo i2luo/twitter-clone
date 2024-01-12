@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Calibri;
 }
 
 body {
@@ -46,6 +47,16 @@ body {
     border-radius: 30px;
     height: 50px;
     margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.sidebar__tweet:hover {
+    opacity: 0.8;
+}
+
+.sidebar__tweet:active {
+    opacity: 0.6;
 }
 
 body {
@@ -144,6 +155,7 @@ body {
     height: 40px;
     margin-top: 20px;
     margin-left: auto;
+    cursor: pointer;
 }
 
 /* post */
